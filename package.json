@@ -1,0 +1,16 @@
+{
+  "name": "airdraw-photo-server-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "check": "node --check api/captures.js && node --check api/health.js && node --check api/admin/login.js && node --check api/admin/me.js && node --check api/admin/list.js && node --check api/admin/file.js && node --check api/admin/delete.js && node --check lib/auth.js && node --check lib/http.js && node --check admin.js"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^48.0.0"
+  }
+}
