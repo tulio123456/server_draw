@@ -1,3 +1,8 @@
+# VERSÃO CORRIGIDA PARA VERCEL FUNCTIONS
+
+Esta versão usa `export default async function handler(request)` em todos os arquivos da pasta `/api`.
+Substitua os arquivos antigos do repositório `server-draw` por estes e faça um novo deploy.
+
 # AirDraw Photo Server — Vercel
 
 Servidor de fotos para o AirDraw, feito especificamente para hospedar na Vercel.
